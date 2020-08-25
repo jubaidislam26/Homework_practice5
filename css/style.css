@@ -1,0 +1,268 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 15px 0;
+}
+
+.container {
+	width:73%;
+	margin: 0 auto;
+	overflow: hidden;
+	/**border:1px solid red;**/
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 75%;
+	float: right;
+	margin-top: 10px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	padding: 0 17px;
+	font-family: sans-serif; 
+	font-size:15px;
+	font-weight:700;
+	color: #535D69;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color:#BD233F;
+}
+/**header end**/
+/**banner start**/
+.banner{
+	background-image: url(../images/business.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-position: top;
+}
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 50%;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size:56px;
+	font-weight:700;
+	color:white;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size:18px;
+	color:white;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_content button{
+	width: 260px;
+	height: 50px;
+	background-color: #BE2342;
+	border:none;
+	font-family: sans-serif;
+	font-size:15px;
+	color:white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.b_content button:focus{
+	outline: 0;
+}
+.b_content button:hover{
+	color: black;
+	background-color: white;
+}
+/**banner end**/
+/**works start**/
+.works{
+	padding: 100px 0;
+}
+.first_part{
+	width: 70%;
+	/**border:1px solid red;**/
+	margin:0 auto;
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.first_part h1{
+	font-size: 30px;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    margin:0 0 30px;
+}
+.first_part p{
+	font-size: 17px;
+	color: #525C68;
+	line-height: 24px;
+}
+.second_part{
+	overflow: hidden;
+}
+.single_item{
+	float: left;
+	width: 24%;
+	/**border:1px solid black;**/
+	text-align: center;
+	padding: 0 1.5%;
+	margin:0 3.16%;
+}
+.single_item img{
+	width: 50%;
+}
+.single_item p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight:700;
+	color: #1F1F1F; 
+}
+/**works end**/
+/**video section starts**/
+.video_section{
+	padding: 100px 0;
+	background-color: #f8f8f8;
+	overflow: hidden;
+}
+.text_part{
+	font-family: sans-serif; 
+	float: left;
+	width: 47%;
+	/**border:1px solid red;**/
+}
+.text_part h1{
+	 color: #1F1F1F;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-size: 28px;
+
+}
+.text_part p{
+	font-size:17px;
+	color: #525C68; 
+}
+.text_part button{
+	font-family: sans-serif;
+	font-size:15px;
+	color:white;
+	width: 160px;
+	height: 50px;
+	background-color: #BE2342;
+	border:none;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.text_part button:focus{
+	outline: 0;
+}
+.text_part button:hover{
+	color: black;
+}
+.video_part{
+	width: 49%;
+	/**border:1px solid red;**/
+	float:right;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.video_part img{
+	width: 100%;
+}
+/**video section ends**/
+/**features section starts**/
+.features_section{
+	padding: 100px 0;
+}
+.third_part{
+	overflow: hidden;
+}
+.features_one{
+	overflow: hidden;
+	/**border:1px solid red;**/
+}
+.features_box{
+	padding: 0 2.14%;
+    text-align: center;
+    float: left;
+    width: 24%;
+    /**border: 1px solid red;**/
+    margin: 1.5% 2.52%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+.features_box img{
+	width: 30%;
+}
+.features_box h4{
+	font-family: sans-serif;
+}
+.features_box p{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight:400;
+	color: #525C68; 
+}
+.third_part button{
+	font-family: sans-serif;
+	font-size: 13px;
+	color: red;
+	text-align: center;
+	margin: 10% 42% 1% 43%;
+	padding: 0 1.7%;
+    text-transform: uppercase;
+    border: none;
+    width: 15%;
+    height: 33px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.third_part button:focus{
+	outline: 0;
+}
+.third_part button:hover{
+	background-color: red;
+	color: white;
+}
+/**features section ends**/
+/**footer starts**/
+.footer{
+	background-color: #535D69;
+}
+.footer p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	color: white;
+	padding: 20px 0;
+	text-align: center; 
+}
+/**footer ends**/
